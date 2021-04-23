@@ -20,8 +20,7 @@ async def on_message(message):
     await message.channel.send('FOR JON \nIN JON \nON JON \nhttps://giphy.com/gifs/mWTlyGwfNNgcIj9I2q')
   if message.content.startswith('!bruh'):
     await message.channel.send('<:bruh2:745666231570268180>')
-  if message.content.startswith('!sus'):
-    await message.channel.send('%s sus' % myid )
+  
 
 
 
